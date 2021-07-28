@@ -1,0 +1,451 @@
+{
+  "featureName": "PatientAppointmentScheduling.Title",
+  "configurations": [
+    {
+      "groupName": "PatientAppointmentSchedulingSetupPage.GroupGetStartedWithAppointmentManagement",
+      "groupDescription": "PatientAppointmentSchedulingSetupPage.GroupGetStartedWithAppointmentManagementDesc",
+      "groupOrder": 1,
+      "timeToComplete": 9,
+      "steps": [
+        {
+          "name": "PatientAppointmentSchedulingSetupPage.StepAssignTheHealthCloudFoundationPermissionSet",
+          "description": "PatientAppointmentSchedulingSetupPage.StepAssignTheHealthCloudFoundationPermissionSetDesc",
+          "order": 1,
+          "dependency": [],
+          "action": {
+            "name": "PatientAppointmentSchedulingSetupPage.ActionUsers",
+            "type": "UrlNavigate",
+            "resource": ""
+          },
+          "helpUrl": "",
+          "preValidation": "",
+          "validationMessage": "",
+          "timeToComplete": 1
+        },
+        {
+          "name": "PatientAppointmentSchedulingSetupPage.StepSetUpDataForAppointmentManagement-VerifyTheProviderDataModel",
+          "description": "PatientAppointmentSchedulingSetupPage.StepSetUpDataForAppointmentManagement-VerifyTheProviderDataModelDesc",
+          "order": 2,
+          "dependency": [],
+          "action": {
+            "name": "PatientAppointmentSchedulingSetupPage.ActionProviderSearchSettings",
+            "type": "UrlNavigate",
+            "resource": ""
+          },
+          "helpUrl": "",
+          "preValidation": "",
+          "validationMessage": "",
+          "timeToComplete": 1
+        },
+        {
+          "name": "PatientAppointmentSchedulingSetupPage.StepIndicateProviderStatusInTheUi",
+          "description": "PatientAppointmentSchedulingSetupPage.StepIndicateProviderStatusInTheUiDesc",
+          "order": 3,
+          "dependency": [],
+          "action": {
+            "name": "PatientAppointmentSchedulingSetupPage.ActionSetUpAssigned/PastProvider",
+            "type": "UrlNavigate",
+            "resource": ""
+          },
+          "helpUrl": "",
+          "preValidation": "",
+          "validationMessage": "",
+          "timeToComplete": 1
+        },
+        {
+          "name": "PatientAppointmentSchedulingSetupPage.StepConfigureVisitTypes",
+          "description": "PatientAppointmentSchedulingSetupPage.StepConfigureVisitTypesDesc",
+          "order": 4,
+          "dependency": [],
+          "action": {
+            "name": "PatientAppointmentSchedulingSetupPage.ActionCreateWorkType",
+            "type": "UrlNavigate",
+            "resource": ""
+          },
+          "helpUrl": "",
+          "preValidation": "",
+          "validationMessage": "",
+          "timeToComplete": 1
+        },
+        {
+          "name": "PatientAppointmentSchedulingSetupPage.StepConfigureTheNpiForHealthcareProviders",
+          "description": "PatientAppointmentSchedulingSetupPage.StepConfigureTheNpiForHealthcareProvidersDesc",
+          "order": 5,
+          "dependency": [],
+          "action": {
+            "name": "PatientAppointmentSchedulingSetupPage.ActionCreateHealthcareProviderNpi",
+            "type": "UrlNavigate",
+            "resource": ""
+          },
+          "helpUrl": "",
+          "preValidation": "",
+          "validationMessage": "",
+          "timeToComplete": 1
+        },
+        {
+          "name": "PatientAppointmentSchedulingSetupPage.StepCreateACareSpecialty",
+          "description": "PatientAppointmentSchedulingSetupPage.StepCreateACareSpecialtyDesc",
+          "order": 6,
+          "dependency": [],
+          "action": {
+            "name": "PatientAppointmentSchedulingSetupPage.ActionCreateCareSpecialty",
+            "type": "UrlNavigate",
+            "resource": ""
+          },
+          "helpUrl": "",
+          "preValidation": "",
+          "validationMessage": "",
+          "timeToComplete": 1
+        },
+        {
+          "name": "PatientAppointmentSchedulingSetupPage.StepAssociatePractitionerWithTheirSpecialties",
+          "description": "PatientAppointmentSchedulingSetupPage.StepAssociatePractitionerWithTheirSpecialtiesDesc",
+          "order": 7,
+          "dependency": [],
+          "action": {
+            "name": "PatientAppointmentSchedulingSetupPage.ActionCreateCareProviderFacilitySpecialty",
+            "type": "UrlNavigate",
+            "resource": ""
+          },
+          "helpUrl": "",
+          "preValidation": "",
+          "validationMessage": "",
+          "timeToComplete": 1
+        },
+        {
+          "name": "PatientAppointmentSchedulingSetupPage.StepConnectWorkTypeWithCareSpecialty",
+          "description": "PatientAppointmentSchedulingSetupPage.StepConnectWorkTypeWithCareSpecialtyDesc",
+          "order": 8,
+          "dependency": [],
+          "action": {
+            "name": "PatientAppointmentSchedulingSetupPage.ActionCreateWorkTypeCareSpecialty",
+            "type": "UrlNavigate",
+            "resource": ""
+          },
+          "helpUrl": "",
+          "preValidation": "",
+          "validationMessage": "",
+          "timeToComplete": 1
+        },
+        {
+          "name": "PatientAppointmentSchedulingSetupPage.StepConfigureAppointmentStatusValues",
+          "description": "PatientAppointmentSchedulingSetupPage.StepConfigureAppointmentStatusValuesDesc",
+          "order": 9,
+          "dependency": [],
+          "action": {
+            "name": "PatientAppointmentSchedulingSetupPage.ActionSetUpAppointmentStatusValues",
+            "type": "UrlNavigate",
+            "resource": ""
+          },
+          "helpUrl": "",
+          "preValidation": "",
+          "validationMessage": "",
+          "timeToComplete": 1
+        }
+      ]
+    },
+    {
+      "groupName": "PatientAppointmentSchedulingSetupPage.GroupSetupWorkTypeAndWorkTypeCodeSetBundle",
+      "groupDescription": "PatientAppointmentSchedulingSetupPage.GroupGetStartedWithAppointmentManagementDesc",
+      "groupOrder": 2,
+      "timeToComplete": 5,
+      "steps": [
+        {
+          "name": "PatientAppointmentSchedulingSetupPage.StepCreateServiceTypeCodeSet",
+          "description": "PatientAppointmentSchedulingSetupPage.StepCreateServiceTypeCodeSetDesc",
+          "order": 1,
+          "dependency": [],
+          "action": {
+            "name": "PatientAppointmentSchedulingSetupPage.ActionCreateCodeSet",
+            "type": "UrlNavigate",
+            "resource": ""
+          },
+          "helpUrl": "",
+          "preValidation": "",
+          "validationMessage": "",
+          "timeToComplete": 1
+        },
+        {
+          "name": "PatientAppointmentSchedulingSetupPage.StepCreateServiceTypeCodeSetBundle",
+          "description": "PatientAppointmentSchedulingSetupPage.StepCreateServiceTypeCodeSetBundleDesc",
+          "order": 2,
+          "dependency": [],
+          "action": {
+            "name": "PatientAppointmentSchedulingSetupPage.ActionCreateCodeSetBundle",
+            "type": "UrlNavigate",
+            "resource": ""
+          },
+          "helpUrl": "",
+          "preValidation": "",
+          "validationMessage": "",
+          "timeToComplete": 1
+        },
+        {
+          "name": "PatientAppointmentSchedulingSetupPage.StepCreateAppointmentTypeCodeSet",
+          "description": "PatientAppointmentSchedulingSetupPage.StepCreateAppointmentTypeCodeSetDesc",
+          "order": 3,
+          "dependency": [],
+          "action": {
+            "name": "PatientAppointmentSchedulingSetupPage.ActionCreateCodeSet",
+            "type": "UrlNavigate",
+            "resource": ""
+          },
+          "helpUrl": "",
+          "preValidation": "",
+          "validationMessage": "",
+          "timeToComplete": 1
+        },
+        {
+          "name": "PatientAppointmentSchedulingSetupPage.StepCreateAppointmentTypeCodeSetBundle",
+          "description": "PatientAppointmentSchedulingSetupPage.StepCreateAppointmentTypeCodeSetBundleDesc",
+          "order": 4,
+          "dependency": [],
+          "action": {
+            "name": "PatientAppointmentSchedulingSetupPage.ActionCreateCodeSetBundle",
+            "type": "UrlNavigate",
+            "resource": ""
+          },
+          "helpUrl": "",
+          "preValidation": "",
+          "validationMessage": "",
+          "timeToComplete": 1
+        },
+        {
+          "name": "PatientAppointmentSchedulingSetupPage.StepCreateWorkTypeCodeSetBundleRecords",
+          "description": "PatientAppointmentSchedulingSetupPage.StepCreateWorkTypeCodeSetBundleRecordsDesc",
+          "order": 5,
+          "dependency": [],
+          "action": {
+            "name": "PatientAppointmentSchedulingSetupPage.ActionCreateWorkTypeCodeSetBundle",
+            "type": "UrlNavigate",
+            "resource": ""
+          },
+          "helpUrl": "",
+          "preValidation": "",
+          "validationMessage": "",
+          "timeToComplete": 1
+        }
+      ]
+    },
+    {
+      "groupName": "PatientAppointmentSchedulingSetupPage.GroupSetUpIdentifiersToLinkTheExternalSchedulingSystem",
+      "groupDescription": "PatientAppointmentSchedulingSetupPage.GroupGetStartedWithAppointmentManagementDesc",
+      "groupOrder": 3,
+      "timeToComplete": 4,
+      "steps": [
+        {
+          "name": "PatientAppointmentSchedulingSetupPage.StepConfigureIdentifierRecordForPractitioner",
+          "description": "PatientAppointmentSchedulingSetupPage.StepConfigureIdentifierRecordForPractitionerDesc",
+          "order": 1,
+          "dependency": [],
+          "action": {
+            "name": "PatientAppointmentSchedulingSetupPage.ActionCreatePractitionerIdentifier",
+            "type": "UrlNavigate",
+            "resource": ""
+          },
+          "helpUrl": "",
+          "preValidation": "",
+          "validationMessage": "",
+          "timeToComplete": 1
+        },
+        {
+          "name": "PatientAppointmentSchedulingSetupPage.StepDefineSourceSystemForHealthcarePractitionerFacility",
+          "description": "PatientAppointmentSchedulingSetupPage.StepDefineSourceSystemForHealthcarePractitionerFacilityDesc",
+          "order": 2,
+          "dependency": [],
+          "action": {
+            "name": "PatientAppointmentSchedulingSetupPage.ActionHealthcarePractitionerFacilities",
+            "type": "UrlNavigate",
+            "resource": ""
+          },
+          "helpUrl": "",
+          "preValidation": "",
+          "validationMessage": "",
+          "timeToComplete": 1
+        },
+        {
+          "name": "PatientAppointmentSchedulingSetupPage.StepConfigureIdentifierRecordForFacility",
+          "description": "PatientAppointmentSchedulingSetupPage.StepConfigureIdentifierRecordForFacilityDesc",
+          "order": 3,
+          "dependency": [],
+          "action": {
+            "name": "PatientAppointmentSchedulingSetupPage.ActionCreateFacilityIdentifier",
+            "type": "UrlNavigate",
+            "resource": ""
+          },
+          "helpUrl": "",
+          "preValidation": "",
+          "validationMessage": "",
+          "timeToComplete": 1
+        },
+        {
+          "name": "PatientAppointmentSchedulingSetupPage.StepConfigureIdentifierRecordForPatient",
+          "description": "PatientAppointmentSchedulingSetupPage.StepConfigureIdentifierRecordForPatientDesc",
+          "order": 4,
+          "dependency": [],
+          "action": {
+            "name": "PatientAppointmentSchedulingSetupPage.ActionCreatePatientIdentifier",
+            "type": "UrlNavigate",
+            "resource": ""
+          },
+          "helpUrl": "",
+          "preValidation": "",
+          "validationMessage": "",
+          "timeToComplete": 1
+        }
+      ]
+    },
+    {
+      "groupName": "PatientAppointmentSchedulingSetupPage.GroupSetupConfigurationForAppointmentScheduling",
+      "groupDescription": "PatientAppointmentSchedulingSetupPage.GroupGetStartedWithAppointmentManagementDesc",
+      "groupOrder": 4,
+      "timeToComplete": 3,
+      "steps": [
+        {
+          "name": "PatientAppointmentSchedulingSetupPage.StepCreateANamedCredential",
+          "description": "PatientAppointmentSchedulingSetupPage.StepCreateANamedCredentialDesc",
+          "order": 1,
+          "dependency": [],
+          "action": {
+            "name": "PatientAppointmentSchedulingSetupPage.ActionCreateNamedCredential",
+            "type": "UrlNavigate",
+            "resource": ""
+          },
+          "helpUrl": "",
+          "preValidation": "",
+          "validationMessage": "",
+          "timeToComplete": 1
+        },
+        {
+          "name": "PatientAppointmentSchedulingSetupPage.StepConfigureTheAppointmentManagementSettings",
+          "description": "PatientAppointmentSchedulingSetupPage.StepConfigureTheAppointmentManagementSettingsDesc",
+          "order": 2,
+          "dependency": [],
+          "action": {
+            "name": "PatientAppointmentSchedulingSetupPage.ActionCreateAppointmentSchedulingConfiguration",
+            "type": "UrlNavigate",
+            "resource": ""
+          },
+          "helpUrl": "",
+          "preValidation": "",
+          "validationMessage": "",
+          "timeToComplete": 1
+        },
+        {
+          "name": "PatientAppointmentSchedulingSetupPage.StepConnectToTheExternalSchedulingSystem",
+          "description": "PatientAppointmentSchedulingSetupPage.StepConnectToTheExternalSchedulingSystemDesc",
+          "order": 3,
+          "dependency": [],
+          "action": {
+            "name": "PatientAppointmentSchedulingSetupPage.ActionCreateAppointmentSchedulingUrlConfiguration",
+            "type": "UrlNavigate",
+            "resource": ""
+          },
+          "helpUrl": "",
+          "preValidation": "",
+          "validationMessage": "",
+          "timeToComplete": 1
+        }
+      ]
+    },
+    {
+      "groupName": "PatientAppointmentSchedulingSetupPage.GroupSetupAppointmentManagementWithSalesforceScheduler",
+      "groupDescription": "PatientAppointmentSchedulingSetupPage.GroupGetStartedWithAppointmentManagementDesc",
+      "groupOrder": 5,
+      "timeToComplete": 1,
+      "steps": [
+        {
+          "name": "PatientAppointmentSchedulingSetupPage.StepSetUpSalesforceSchedulerAsTheSchedulingSystem-AppliesOnlyToUsersWithTheSalesforceSchedulerAdd-On",
+          "description": "PatientAppointmentSchedulingSetupPage.StepSetUpSalesforceSchedulerAsTheSchedulingSystem-AppliesOnlyToUsersWithTheSalesforceSchedulerAdd-OnDesc",
+          "order": 1,
+          "dependency": [],
+          "action": {
+            "name": "PatientAppointmentSchedulingSetupPage.ActionLightningSchedulerSetupSteps",
+            "type": "UrlNavigate",
+            "resource": ""
+          },
+          "helpUrl": "",
+          "preValidation": "",
+          "validationMessage": "",
+          "timeToComplete": 1
+        }
+      ]
+    },
+    {
+      "groupName": "PatientAppointmentSchedulingSetupPage.GroupVerifyAppointmentManagementIsWorking",
+      "groupDescription": "PatientAppointmentSchedulingSetupPage.GroupGetStartedWithAppointmentManagementDesc",
+      "groupOrder": 6,
+      "timeToComplete": 3,
+      "steps": [
+        {
+          "name": "PatientAppointmentSchedulingSetupPage.StepCreateAppointmentManagementComponent",
+          "description": "PatientAppointmentSchedulingSetupPage.StepCreateAppointmentManagementComponentDesc",
+          "order": 1,
+          "dependency": [],
+          "action": {
+            "name": "PatientAppointmentSchedulingSetupPage.ActionEditAccountPageLayout",
+            "type": "UrlNavigate",
+            "resource": ""
+          },
+          "helpUrl": "",
+          "preValidation": "",
+          "validationMessage": "",
+          "timeToComplete": 1
+        },
+        {
+          "name": "PatientAppointmentSchedulingSetupPage.StepCreateAPatientAccount",
+          "description": "PatientAppointmentSchedulingSetupPage.StepCreateAPatientAccountDesc",
+          "order": 2,
+          "dependency": [],
+          "action": {
+            "name": "PatientAppointmentSchedulingSetupPage.ActionCreatePatient",
+            "type": "UrlNavigate",
+            "resource": ""
+          },
+          "helpUrl": "",
+          "preValidation": "",
+          "validationMessage": "",
+          "timeToComplete": 1
+        },
+        {
+          "name": "PatientAppointmentSchedulingSetupPage.StepScheduleAPatientHealthcareAppointment",
+          "description": "PatientAppointmentSchedulingSetupPage.StepScheduleAPatientHealthcareAppointmentDesc",
+          "order": 3,
+          "dependency": [],
+          "action": {
+            "name": "PatientAppointmentSchedulingSetupPage.ActionPatientAccounts",
+            "type": "UrlNavigate",
+            "resource": ""
+          },
+          "helpUrl": "",
+          "preValidation": "",
+          "validationMessage": "",
+          "timeToComplete": 1
+        }
+      ]
+    },
+    {
+      "groupName": "PatientAppointmentSchedulingSetupPage.GroupSetupEinsteinDiscoveryForAppointmentManagement",
+      "groupDescription": "PatientAppointmentSchedulingSetupPage.GroupGetStartedWithAppointmentManagementDesc",
+      "groupOrder": 7,
+      "timeToComplete": 1,
+      "steps": [
+        {
+          "name": "PatientAppointmentSchedulingSetupPage.StepSetUpEinsteinAnalyticsPrediction-AppliesOnlyToUsersWithTheEinsteindiscoveryintableauAdd-On",
+          "description": "PatientAppointmentSchedulingSetupPage.StepSetUpEinsteinAnalyticsPrediction-AppliesOnlyToUsersWithTheEinsteindiscoveryintableauAdd-OnDesc",
+          "order": 1,
+          "dependency": [],
+          "action": {
+            "name": "PatientAppointmentSchedulingSetupPage.ActionEinsteinSetupSteps",
+            "type": "UrlNavigate",
+            "resource": ""
+          },
+          "helpUrl": "",
+          "preValidation": "",
+          "validationMessage": "",
+          "timeToComplete": 1
+        }
+      ]
+    }
+  ]
+}

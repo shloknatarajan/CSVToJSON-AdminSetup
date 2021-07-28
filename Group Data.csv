@@ -1,0 +1,8 @@
+Group ID,groupName,groupDescription,timeToComplete,groupOrder
+1,Get Started with Appointment Management,Setup provider data models,9,1
+2,Setup Work Type and Work Type Code Set Bundle,,5,2
+3,Set Up Identifiers to Link the External Scheduling System,,4,3
+4,Setup Configuration for Appointment Scheduling,,3,4
+5,Setup Appointment Management with Salesforce Scheduler,,1,5
+6,Verify Appointment Management is Working,,3,6
+7,Setup Einstein Discovery for Appointment Management,,1,7
