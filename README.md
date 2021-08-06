@@ -1,4 +1,4 @@
-# ExcelToJSON-AdminSetup
+# CSVToJSON-AdminSetup
 Converting CSV files for group and steps into JSON/XML for Admin Setup
 
 Hello everyone, my name is Shlok and I am one of the interns on the Healthcare Cloud team. This python file converts 2 separate CSV files, one for the groups and one for the steps, into JSON and XML Files.
